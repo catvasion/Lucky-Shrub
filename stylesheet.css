@@ -1,0 +1,16 @@
+body {
+    display: flexbox;
+    width:100vw ;
+
+}
+header {
+    width:100%;
+    text-align:center;
+    background-color: turquoise;
+    margin: 0%;
+    
+}
+#photo {
+    display:inline-block;
+    margin: 0 auto;
+}
