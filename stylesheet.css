@@ -1,6 +1,8 @@
 body {
     display: flexbox;
     width:100vw ;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 header {
@@ -12,5 +14,49 @@ header {
 }
 #photo {
     display:inline-block;
-    margin: 0 auto;
+    margin: 2%;
 }
+nav {
+    display: flex;
+    /*background-color:floralwhite;*/
+    align-items: center;
+   justify-content: space-between;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+li {
+    display: inline;
+    margin: 6vw;
+}
+li:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+li:active {
+    opacity: .5;
+}
+
+@media (max-width: 640px) {
+    body {
+      text-align: center;
+    }
+  
+    body nav {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8vh 0;
+    }
+  }
