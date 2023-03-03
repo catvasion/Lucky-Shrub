@@ -155,7 +155,7 @@ footer > .footer-wrap {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(224, 255, 233);
+    /* background-color: white; */
     padding: 3vh;
     border-style: ridge;
 }
